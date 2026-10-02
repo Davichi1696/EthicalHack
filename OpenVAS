@@ -1,3 +1,19 @@
+Quick Deployment Instructions
+1. Open a terminal and create a new file: nano openvas_start.sh
+
+2. Paste the code block above into the file.
+
+3. Save and close (Ctrl+O, Enter, then Ctrl+X).
+
+4. Give the file executable permissions:bash
+chmod +x openvas_start.sh
+
+5. Execute it with administrative rights:bash
+sudo ./openvas_start.sh
+
+
+################################### CODE ###################################################
+
 #!/bin/bash
 
 # ==============================================================================
